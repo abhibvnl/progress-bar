@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background: linear-gradient(#141e30, #243b55);
+}
+ div {
+    background-color: rgba(2, 7, 7, 0.726);
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,100px);
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  }
+  h1 {
+    position: relative;
+    top: 50%;
+    height: 30px;
+    animation: abhi 10s 1s 5 forwards;
+  }
+
+  @keyframes abhi {
+    from {
+      background: linear-gradient( to right, rgba(0, 217, 255, 0.918), yellow );
+      width: 0px;
+    }
+
+    to {
+      background: linear-gradient(to right, rgba(0, 255, 234, 0.931),yellow );
+      width: 500px;
+    }
+  }
